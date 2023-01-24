@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+.App{
+  /* display: flex; */
+  align-items: center;
+  margin-top:  2rem;
+ 
+}
+.App{
+  background-image: linear-gradient(
+    red, rgb(46, 197, 185),white
+  );
+}
+.form{
+  /* display: block; */
+  margin: 2rem auto;
+  
+}
+.form,input{
+  font-size: 20px;
+  margin-bottom: 1rem;
+  /* border: #282c34 solid .1rem; */
+  border-radius: 8px ;
+}
+.list{
+  /* border: black 4rem; */
+  /* width: 80%; */
+  /* height: auto; */
+
+  margin: 2rem 2rem;
+  display: flex;
+  border: 2px solid black;
+  border-radius: 5px;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  /* justify-content: space-between; */
+}
+.wholeDiv{
+  border: red solid;
+  background-color: rgb(50, 85, 131);
+  border-radius: 2rem;
+  font-size: 15px;
+  margin: 2rem 2rem;
+  padding: 1.2rem;
+  margin-right: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  
+  /* width: 80%;
+  margin: 2rem auto; */ 
+  /* flex-flow: row wrap; */
+  /* flex-direction: column; */
+  /* justify-content: space-around; */
+}
