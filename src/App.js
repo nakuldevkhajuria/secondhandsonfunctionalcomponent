@@ -61,6 +61,7 @@ console.log(formData)
   }
    
   return (
+    <>
     <div className="App">
       <h1 >EMPLOYEE FEEDBACK FORM</h1>
       <form className='form'>
@@ -70,7 +71,7 @@ console.log(formData)
       <input type='text' name='Department' value={formData.Department} onChange={changeValue}></input> <br/>
       <label>Rating : </label>
       <input type='text' name='Rating' value={formData.Rating} onChange={changeValue}></input> <br/>
-      <button type='button' onClick={submitChange}>Submit</button>
+      <button id='button' type='button' onClick={submitChange}>Submit</button>
       {/* <input type='submit' value='Submit' /> */}
       </form>
       <div className='list'>
@@ -92,6 +93,7 @@ console.log(formData)
 })}
       </div>
     </div>
+    </>
   );
 }
 
